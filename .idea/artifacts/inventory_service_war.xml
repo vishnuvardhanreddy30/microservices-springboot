@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="inventory-service:war">
+    <output-path>$PROJECT_DIR$/inventory-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>inventory-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="inventory-service.war">
+      <element id="artifact" artifact-name="inventory-service:war exploded" />
+    </root>
+  </artifact>
+</component>
