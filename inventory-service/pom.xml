@@ -9,7 +9,7 @@
     <groupId>com.program.practice</groupId>
     <artifactId>inventory-service</artifactId>
     <packaging>war</packaging>
-    <name>inventory-service Maven Webapp</name>
+    <name>inventory-service</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
