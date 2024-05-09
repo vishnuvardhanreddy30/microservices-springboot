@@ -1,6 +1,11 @@
 # Getting Started
 
+building a simple e-commerce application where customers can order products. Our application contains the following services:
 
+Product Service
+Order Service
+Inventory Service
+Notification Service
 
 
 ### Reference Documentation
