@@ -7,6 +7,16 @@
 
 For further reference, please consider the following sections:
 
+* covers building REST-based applications using Spring Boot 3 and following several best practices.
+* covers, the Synchronous Inter-Service Communication Pattern using Spring Cloud Open Feign.
+* covers the Service Discovery Pattern using Spring Cloud Netflix Eureka.
+* covers the Service Discovery Pattern using Spring Cloud Netflix Eureka.
+* covers the Microservices Security using Keycloak.
+* covers the Circuit Breaker Pattern using Spring Cloud CircuitBreaker with Resilience4J.
+* covers the Event Driven Architecture Pattern using Kafka
+* containerizing all our applications using Docker.
+* Prometheus to collect the Metrics and Grafana to visualize the metrics in a dashboard
+
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.5/maven-plugin/reference/html/)
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.2.5/maven-plugin/reference/html/#build-image)
