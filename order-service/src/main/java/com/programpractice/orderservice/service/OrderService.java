@@ -2,11 +2,13 @@ package com.programpractice.orderservice.service;
 
 import com.programpractice.orderservice.dto.OrderDto;
 import com.programpractice.orderservice.dto.OrderListItems;
+import com.programpractice.orderservice.event.OrderPlacedEvent;
 import com.programpractice.orderservice.model.InventoryResponse;
 import com.programpractice.orderservice.model.ProductOrder;
 import com.programpractice.orderservice.model.OrderItems;
 import com.programpractice.orderservice.repository.OrdereServiceRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -22,8 +24,9 @@ public class OrderService {
 
     private final OrdereServiceRepository ordereServiceRepository;
     private final WebClient.Builder webClientBuilder;
+    private final KafkaTemplate<String, OrderPlacedEvent> kafkaTemplate;
 
-    public void createOrder(OrderDto orderDto) {
+    public String createOrder(OrderDto orderDto) {
         ProductOrder order = new ProductOrder();
         order.setOrderNumber(UUID.randomUUID().toString());
         List<OrderItems> orderItems = orderDto.getOrderListItemsList().stream()
@@ -43,12 +46,15 @@ public class OrderService {
                                         .bodyToMono(InventoryResponse[].class)
                                                 .block();
        boolean isAllProductsInStock = Arrays.stream(result).allMatch(InventoryResponse::isInStock);
-        if (isAllProductsInStock)
+        if (isAllProductsInStock) {
             ordereServiceRepository.save(order);
+            kafkaTemplate.send("notificationTopic", OrderPlacedEvent.builder().orderNumber(order.getOrderNumber()).build());
+            return "Order Created Successfully";
+        }
         else
+        {
             throw new IllegalArgumentException("No skuCode is available, please try again later!");
-
-
+        }
     }
 
     private OrderItems mapOrderItems(OrderListItems orderListItems) {

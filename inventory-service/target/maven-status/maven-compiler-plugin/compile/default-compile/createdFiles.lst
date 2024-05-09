@@ -1,5 +1,7 @@
 com/programpractice/inventory/model/Inventory.class
 com/programpractice/inventory/InventoryServiceApplication.class
 com/programpractice/inventory/repository/InventoryRepository.class
+com/programpractice/inventory/model/InventoryResponse.class
+com/programpractice/inventory/model/InventoryResponse$InventoryResponseBuilder.class
 com/programpractice/inventory/controller/InventoryController.class
 com/programpractice/inventory/service/InventoryFindingService.class

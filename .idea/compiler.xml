@@ -11,21 +11,15 @@
         <module name="order-service" />
         <module name="inventory-service" />
         <module name="service-discovery" />
+        <module name="notification-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="api-gateway" target="17" />
-      <module name="inventory-service" target="17" />
-      <module name="microservices-springboot" target="1.5" />
-      <module name="order-service" target="17" />
-      <module name="product-service" target="17" />
-      <module name="service-discovery" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
       <module name="service-discovery" options="-parameters" />

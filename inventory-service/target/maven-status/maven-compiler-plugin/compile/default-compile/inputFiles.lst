@@ -1,5 +1,6 @@
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/repository/InventoryRepository.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/InventoryServiceApplication.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/model/Inventory.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/service/InventoryFindingService.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/controller/InventoryController.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/model/InventoryResponse.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/InventoryServiceApplication.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/model/Inventory.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/controller/InventoryController.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/service/InventoryFindingService.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/inventory-service/src/main/java/com/programpractice/inventory/repository/InventoryRepository.java

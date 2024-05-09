@@ -1,7 +1,7 @@
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/dto/ProductResponse.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/repository/ProductRepository.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/controller/ProductsController.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/dto/ProductRequest.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/service/ProductService.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/ProductServiceApplication.java
-/Users/vishnuvardhanreddykurra/Desktop/Microservices/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/model/Product.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/dto/ProductRequest.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/dto/ProductResponse.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/service/ProductService.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/repository/ProductRepository.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/controller/ProductsController.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/model/Product.java
+/Users/vishnuvardhanreddykurra/IdeaProjects/microservices-springboot/product-service/src/main/java/com/programpractice/productservice/ProductServiceApplication.java

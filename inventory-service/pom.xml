@@ -8,9 +8,8 @@
     </parent>
     <groupId>com.program.practice</groupId>
     <artifactId>inventory-service</artifactId>
-    <packaging>war</packaging>
     <name>inventory-service</name>
-    <url>http://maven.apache.org</url>
+    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -36,11 +35,20 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
-    <build>
-        <finalName>inventory-service</finalName>
-    </build>
+
 </project>
