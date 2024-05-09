@@ -8,12 +8,11 @@
 For further reference, please consider the following sections:
 
 * covers building REST-based applications using Spring Boot 3 and following several best practices.
-* covers, the Synchronous Inter-Service Communication Pattern using Spring Cloud Open Feign.
-* covers the Service Discovery Pattern using Spring Cloud Netflix Eureka.
-* covers the Service Discovery Pattern using Spring Cloud Netflix Eureka.
-* covers the Microservices Security using Keycloak.
-* covers the Circuit Breaker Pattern using Spring Cloud CircuitBreaker with Resilience4J.
-* covers the Event Driven Architecture Pattern using Kafka
+* covers, the [Synchronous Inter-Service Communication Pattern](https://microservices.io/patterns/communication-style/rpi.html) using Spring Cloud Open Feign.
+* covers the [Service Discovery Pattern](https://microservices.io/patterns/server-side-discovery.html) using Spring Cloud Netflix Eureka.
+* covers the [Microservices Security](https://microservices.io/patterns/apigateway.html) using Keycloak.
+* covers the [Circuit Breaker Pattern](https://microservices.io/patterns/reliability/circuit-breaker.html) using Spring Cloud CircuitBreaker with Resilience4J.
+* covers the [Event Driven Architecture Pattern](https://microservices.io/patterns/data/event-driven-architecture.html) using Kafka
 * containerizing all our applications using Docker.
 * Prometheus to collect the Metrics and Grafana to visualize the metrics in a dashboard
 
