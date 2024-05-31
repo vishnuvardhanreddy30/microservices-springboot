@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.programpractice.productservice.ProductServiceApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.330 s -- in com.programpractice.productservice.ProductServiceApplicationTests
